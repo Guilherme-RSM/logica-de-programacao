@@ -1,0 +1,76 @@
+/*Importanto fonte do Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*RESET*/
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav-bar {
+    background:#353535;
+    padding:20px;
+}
+
+#nav-bar ul li, a{
+color:#fff;
+display: inline;
+list-style: none;
+text-decoration:none;
+padding:10px;
+}
+
+
+main {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding:20px;
+    background:#a7a5a56e;
+}
+
+h1 {
+    width:100%;
+    font-size:2.5em;
+    text-align:center;
+    padding:30px;
+}
+
+h2 {
+    padding:30px;
+}
+
+main p {
+    width: 80%;
+    
+}
+
+.exemplos {
+    display: flex;
+    align-items: center;
+    width:80%;
+    margin:20px 0;
+    background:#fff;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.158);
+    padding:20px;
+    border-radius:8px;
+
+}
+
+
+#coala {
+    width:300px;
+}
+
+#bolo-de-chocolate {
+    width:300px;
+    
+}
+
+.titulo-do-exemplo {
+    font-weight: 700;
+    display: none;
+}
