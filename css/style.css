@@ -11,7 +11,7 @@
 }
 
 #nav-bar {
-    background: rgb(80, 80, 83);
+    background: #7a7575;
     padding: 20px;
 }
 
@@ -84,3 +84,17 @@ main p {
     font-weight: 700;
     display: none;
 }
+
+#rodape {
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    padding:20px;
+    background:#7a7575;;
+}
+
+#rodape a:hover {
+    color:rgb(31, 30, 30);
+    transition:ease-in-out 0.3s;
+}
+
